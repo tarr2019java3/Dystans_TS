@@ -30,8 +30,8 @@ public class Point {
     }
 
     public double distance(Point p2){
-        int x = p2.getX()-this.x;
-        int y = p2.getY()-this.y;
+        double x = p2.getX()-this.x;
+        double y = p2.getY()-this.y;
         return Math.sqrt((x*x)+(y*y));
 
     }
